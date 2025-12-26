@@ -1,0 +1,67 @@
+body{
+    background-color: #2f3532;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 80% ;
+    max-width: 700px;
+    margin: 0 auto;
+    background: #536058;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#countdown{
+    display: flex;
+    justify-content: space-around;
+}
+
+#countdown div{
+    padding: 30px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+span{
+    font-size: x-large;
+}
+
+.progress-container{
+    background: white;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+
+}
+
+#progress-bar{
+    background: rgb(42, 142, 42);
+    width: 0%;
+    height: 100%;
+    transition: width 1s ease-in-out;
+    border-radius: 5px;
+}
